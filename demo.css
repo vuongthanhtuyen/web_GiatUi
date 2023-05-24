@@ -1,0 +1,87 @@
+.section1{
+    color: rgb(11, 11, 11);
+    /* background: 
+            url("https://images.freeimages.com/images/previews/218/my-dog-cutter-1499799.jpg") 
+            center / cover no-repeat; */
+
+}
+.section1_header{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: cadetblue;
+}
+
+.section1_logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; /*  100px */
+    
+    line-height: 200px;
+    text-align: center;
+    border: 2px dashed #f69c55;
+    background: 
+        url("https://images.freeimages.com/images/previews/218/my-dog-cutter-1499799.jpg") 
+        center / cover no-repeat;
+}
+.section1_tieude:hover{
+    text-decoration: none;
+}
+.section2{
+    height: 800px;
+    background: 
+    url("https://rjkool.com/wp-content/uploads/2021/09/laundry-services.jpg") center / cover no-repeat ;
+    /* text-align: right 20%; */
+    /* align-items: center; */
+
+}
+#section2_body{
+    margin-left: 10%;
+    color: rgb(58, 16, 245);
+}
+.section2_body-phone{
+    animation-name: section2_body-phone-key;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+
+}
+@keyframes section2_body-phone-key{
+    0%{
+     font-size: 40px;
+     
+    }
+    to{
+        font-size: 45px;
+    }
+}
+.section4-img{
+    height: auto;
+    border-radius: 50%; 
+    border: 5px solid green;
+}
+.section_fixed{
+    position: fixed;
+    
+
+}
+.section6_icon{
+    font-size:240%;
+    color:rgb(255, 255, 255); 
+    padding: 15px;
+    
+    border-radius: 50%;
+    background-color:rgb(27, 220, 56) ;
+    
+}
+.icon_zalo{
+    bottom: 90px;
+    left: 20px;
+    font-size:450%;
+    color: rgb(255, 107, 1);
+}
+.icon_phone{
+    bottom: 20px;
+    left: 20px;
+}
